@@ -14,3 +14,9 @@ document.addEventListener(
     },
     false,
 );
+
+document.addEventListener('keyup', function (e) {
+    if (e.code === 'Enter') {
+        onClick();
+    }
+});
