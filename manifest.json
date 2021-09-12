@@ -27,5 +27,16 @@
     "default_title": "Clear Storage",
     "default_icon": "logo-128.png"
   },
+  "commands": {
+    "_execute_browser_action": {
+      "description": "Clear Storage",
+      "suggested_key": {
+        "windows": "Ctrl+Shift+L",
+        "mac": "Command+Shift+L",
+        "chromeos": "Ctrl+Shift+L",
+        "linux": "Ctrl+Shift+L"
+      }
+    }
+  },
   "manifest_version": 2
 }
